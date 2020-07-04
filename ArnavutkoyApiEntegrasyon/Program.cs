@@ -75,7 +75,7 @@ namespace ArnavutkoyApiEntegrasyon
                     //response.StatusCode = HttpStatusCode.OK;
                     if (response.StatusCode == HttpStatusCode.OK)
                     {
-                        var donendegerim = JsonConvert.DeserializeObject<ResponseSuccess>(response.Content);
+                        var donendegerim = JsonConvert.DeserializeObject<ResponseInComingSuccess>(response.Content);
                         //donendegerim.visitId = 123;
                         SuccessRequestUpdate(donendegerim.data,item.TransactionId);
                         log.Info(DateTime.Now + " " + item.OzelAlan1 + "kart nolu ziyatetçinin girişi betik servisine başarıyla gönderildi.Dönen VisitId: " + donendegerim.data);
@@ -125,7 +125,7 @@ namespace ArnavutkoyApiEntegrasyon
 
                     if (response.StatusCode == HttpStatusCode.OK)
                     {
-                        var donendegerim = JsonConvert.DeserializeObject<ResponseSuccessGiden>(response.Content);
+                        var donendegerim = JsonConvert.DeserializeObject<ResponseGoOutSuccess>(response.Content);
                         log.Info(DateTime.Now + " " + item.OzelAlan1 + " nolu ziyatetçinin çıkışı betik servisine başarıyla gönderildi");
                     }
                     else if (response.StatusCode == HttpStatusCode.BadRequest)

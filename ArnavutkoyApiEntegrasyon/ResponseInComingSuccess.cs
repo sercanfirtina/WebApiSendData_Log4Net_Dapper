@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ArnavutkoyApiEntegrasyon
 {
-    class ResponseSuccessGiden
+    public class ResponseInComingSuccess
     {
-        public class ResponseSuccess
-        {
-            public bool data { get; set; }
-        }
+        public int  data { get; set; }
     }
 }

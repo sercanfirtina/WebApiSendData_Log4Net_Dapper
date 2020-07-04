@@ -109,8 +109,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResponseBadRequest.cs" />
-    <Compile Include="ResponseSuccess.cs" />
-    <Compile Include="ResponseSuccessGiden.cs" />
+    <Compile Include="ResponseInComingSuccess.cs" />
+    <Compile Include="ResponseGoOutSuccess.cs" />
     <Compile Include="SqlQueries.cs" />
     <Compile Include="VisitorTransaction.cs" />
   </ItemGroup>

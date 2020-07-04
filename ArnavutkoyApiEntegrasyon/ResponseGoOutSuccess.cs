@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ArnavutkoyApiEntegrasyon
 {
-    public class ResponseSuccess
+
+    public class ResponseGoOutSuccess
     {
-        public int  data { get; set; }
+        public bool data { get; set; }
     }
+
 }
