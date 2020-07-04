@@ -1,0 +1,2 @@
+2020-07-03 15:11:06,818 [1] ERROR Arnavutkoy RestApi - 3.07.2020 15:11:06 The URI prefix is not recognized.hatasýndan dolayý servise yazýlamadý
+2020-07-03 15:11:23,779 [1] ERROR Arnavutkoy RestApi - 3.07.2020 15:11:23 The URI prefix is not recognized.hatasýndan dolayý servise yazýlamadý
