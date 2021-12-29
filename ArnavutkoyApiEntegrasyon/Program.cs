@@ -16,7 +16,7 @@ namespace ArnavutkoyApiEntegrasyon
     {
         static ILog log = LogManager.GetLogger("Arnavutkoy RestApi");
      
-        static readonly RestClient client = new RestClient("http://172.22.1.145:7080");
+        static readonly RestClient client = new RestClient("http://*********");
 
         static void Main(string[] args)
         {         
